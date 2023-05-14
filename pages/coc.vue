@@ -3,6 +3,7 @@
 <template>
     <div>
         <p>coc</p>
+        <NuxtPage />
         <p>
             <NuxtLink to="/">home</NuxtLink>
         </p>

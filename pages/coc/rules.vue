@@ -3,15 +3,6 @@
 <template>
     <div>
         <p>coc/rules</p>
-        <p>
-            <NuxtLink to="/">home</NuxtLink>
-        </p>
-        <p>
-            <NuxtLink to="/coc">coc</NuxtLink>
-        </p>
-        <p>
-            <NuxtLink to="/coc/rules">coc/rules</NuxtLink>
-        </p>
     </div>
 </template>
 
