@@ -2,7 +2,7 @@
 
 <template>
     <div>
-        <p>home</p>
+        <p>coc</p>
         <p>
             <NuxtLink to="/">home</NuxtLink>
         </p>
@@ -12,6 +12,7 @@
         <p>
             <NuxtLink to="/coc/rules">coc/rules</NuxtLink>
         </p>
-</div></template>
+    </div>
+</template>
 
 <style scoped></style>
