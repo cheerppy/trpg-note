@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const rawLastmod = document.lastModified
+</script>
 
 <template>
     <div>
@@ -12,6 +14,10 @@
         <p>
             <NuxtLink to="/coc/rules">coc/rules</NuxtLink>
         </p>
-</div></template>
+        <div>
+            <p>last mod at: {{ rawLastmod }}</p>
+        </div>
+    </div>
+</template>
 
 <style scoped></style>
