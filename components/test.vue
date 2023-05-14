@@ -8,6 +8,6 @@
 
 <style scoped lang="scss">
 .pink {
-    border: 1px solid $color-border;
+    border: 1px solid pink;
 }
 </style>
