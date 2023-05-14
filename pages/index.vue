@@ -4,7 +4,7 @@ const rawLastmod = document.lastModified
 
 <template>
     <div>
-        <p>home</p>
+        <p class="test">home</p>
         <p>
             <NuxtLink to="/">home</NuxtLink>
         </p>
@@ -20,4 +20,8 @@ const rawLastmod = document.lastModified
     </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.test {
+    background-color: pink;
+}
+</style>

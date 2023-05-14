@@ -1,0 +1,63 @@
+/* import variables */
+@use "@/assets/_variables.scss" as *;
+
+/* common styles */
+* {
+    box-sizing: border-box;
+}
+ul,li {
+    list-style: none;
+}
+* {
+    line-height: 1.2;
+}
+
+p, h1, h2, h3, h4 {
+    padding: 0;
+    line-height: 1.4;
+    margin-block: 4px;
+}
+
+/* root */
+body {
+    margin: 0;
+}
+
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Noto+Sans+JP:wght@100;400;700&family=Potta+One&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.noto *{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.potta *{
+    /**
+     * 日本語ゴシックフォント
+     * かわいらしい系
+     */
+    font-family: 'Potta One', cursive;
+}
+
+.charm *{
+    /**
+     * 英字フォント
+     * クリーチャーの英名など 
+     */
+    font-family: 'Charm', cursive;
+}
+
+
+/* coc */
+html:has( #coc ) {
+    background-color: $color-page;
+    background-image: $bg-image;
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center center;
+}
