@@ -4,6 +4,7 @@
     <div>
         <p>coc</p>
         <NuxtPage />
+        <Test />
         <p>
             <NuxtLink to="/">home</NuxtLink>
         </p>

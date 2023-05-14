@@ -21,8 +21,8 @@ const rawLastmod = document.lastModified
 </template>
 
 <style scoped lang="scss">
-.test {
-    background-color: pink;
-    color: $color-brown;
-}
+// .test {
+//     background-color: pink;
+//     color: $color-brown;
+// }
 </style>
