@@ -23,5 +23,6 @@ const rawLastmod = document.lastModified
 <style scoped lang="scss">
 .test {
     background-color: pink;
+    color: $color-brown;
 }
 </style>
