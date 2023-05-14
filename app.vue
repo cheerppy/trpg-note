@@ -1,5 +1,6 @@
 <template>
     <div>
-        <p>Hello Nuxt trpg</p>
+        nuxt page
+        <NuxtPage />
     </div>
 </template>
