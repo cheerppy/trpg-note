@@ -3,7 +3,7 @@ import titleImage from "assets/titleImage-cloud.png"
 </script>
 
 <template>
-    <header class="potta">
+    <header class="font--potta">
         <div class="header__border--ribon-like">
             <div class="header__border--thin">
                 <div class="header__inner">
