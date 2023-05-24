@@ -38,7 +38,7 @@ $footer-height: 130px;
 }
 </style>
 <style deep lang="scss">
-// @use "assets/variables";
+@use "assets/variables";
 
 h2 {
     font-size: 40px;
