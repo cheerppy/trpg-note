@@ -2,10 +2,7 @@
 
 <template>
     <main>
-        <p>coc/rules</p>
-        <section>
-
-        </section>
+        <p>coc home</p>
     </main>
 </template>
 
