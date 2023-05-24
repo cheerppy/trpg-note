@@ -43,6 +43,8 @@
 </template>
 
 <style scoped lang="scss">
+@use "assets/variables";
+
 h2 {
     color: #3d1818;
     font-size: 38px;
