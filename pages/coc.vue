@@ -49,13 +49,12 @@ h2 {
 }
 
 main#coc {
-    $width: $page-width;
-    width: $width;
+    width: $page-width;
     margin-inline: auto;
 }
 
 main#coc section {
-    background-color: $color-pink;
+    background-color: #e9b5c4;
     border-radius: 30px;
     padding-inline: 30px;
     padding-block: 20px;
