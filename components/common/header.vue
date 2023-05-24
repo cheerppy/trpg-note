@@ -37,6 +37,8 @@ import titleImage from "assets/titleImage-cloud.png"
 </template>
 
 <style scoped lang="scss">
+$page-width: var(--page-width);
+
 header {
     background-color: #9b5d61;
     padding: 6px 0;

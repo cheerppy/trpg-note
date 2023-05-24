@@ -1,6 +1,8 @@
 /* import variables */
 @use "@/assets/_variables.scss" as *;
-
+:root {
+    --page-width: 980px;
+}
 /* common styles */
 * {
     box-sizing: border-box;
