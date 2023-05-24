@@ -40,6 +40,9 @@ $footer-height: 130px;
 <style deep lang="scss">
 @use "assets/variables";
 
+
+$page-width: 960px;
+
 h2 {
     font-size: 40px;
     line-height: 1.4;
