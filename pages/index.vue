@@ -44,6 +44,7 @@
 
 <style scoped lang="scss">
 @use "assets/variables";
+$page-width: var(--page-width);
 
 h2 {
     color: #3d1818;
@@ -58,7 +59,7 @@ main#entrance {
 }
 
 main#entrance section {
-    background-color: $color-pink;
+    background-color: #e9b5c4;
     border-radius: 30px;
     padding-inline: 30px;
     padding-block: 20px;

@@ -41,7 +41,7 @@ $footer-height: 130px;
 @use "assets/variables";
 
 
-$page-width: 960px;
+$page-width: var(--page-width);
 
 h2 {
     font-size: 40px;
