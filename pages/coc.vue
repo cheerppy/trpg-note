@@ -23,8 +23,6 @@
 </template>
 
 <style scoped lang="scss">
-@use "assets/variables" as *;
-
 /* test */
 .test-scss{
     background-color: $color-white;
