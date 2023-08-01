@@ -23,7 +23,7 @@
 </template>
 
 <style scoped lang="scss">
-@use "assets/variables";
+@use "assets/variables" as *;
 
 /* test */
 .test-scss{
