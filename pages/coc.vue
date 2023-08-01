@@ -5,6 +5,9 @@
         <CommonHeader />
 
         <NuxtPage id="coc" />
+        <div class="test-scss">
+            <p>hello test</p>
+        </div>
         <!-- <Test />
         <p>
             <NuxtLink to="/">home</NuxtLink>
@@ -21,6 +24,16 @@
 
 <style scoped lang="scss">
 @use "assets/variables";
+
+/* test */
+.test-scss{
+    background-color: $color-white;
+    color: $color-black;
+    width: $test-var-width;
+}
+
+
+/* test */
 
 $footer-height: 130px;
 
@@ -39,9 +52,6 @@ $footer-height: 130px;
 </style>
 <style deep lang="scss">
 @use "assets/variables";
-
-
-$page-width: var(--page-width);
 
 h2 {
     font-size: 40px;
