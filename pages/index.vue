@@ -43,7 +43,7 @@
 </template>
 
 <style scoped lang="scss">
-@use "assets/variables";
+@use "assets/_variables.scss" as *;
 $page-width: var(--page-width);
 
 h2 {

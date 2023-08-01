@@ -23,15 +23,7 @@
 </template>
 
 <style scoped lang="scss">
-/* test */
-.test-scss{
-    background-color: $color-white;
-    color: $color-black;
-    width: $test-var-width;
-}
-
-
-/* test */
+@use "assets/_variables.scss" as *;
 
 $footer-height: 130px;
 
@@ -49,7 +41,7 @@ $footer-height: 130px;
 }
 </style>
 <style deep lang="scss">
-@use "assets/variables" as *;
+@use "assets/_variables.scss" as *;
 
 h2 {
     font-size: 40px;
